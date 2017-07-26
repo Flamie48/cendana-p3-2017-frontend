@@ -1,0 +1,227 @@
+*{
+	padding: 0px;
+}
+/*HEADER TETAP DI ATAS ATAU STICKY
+header{
+	position: fixed;
+}*/
+
+header {
+	background:#000;
+	opacity:0.9;
+	filter:alpha(opacity=40);
+	font-size: 50px;
+	color: black;
+}
+
+.gb_header{
+	width: 60%;
+	height: 100px;
+}
+
+#body{
+	 margin: 0;
+     padding: 0;
+     text-align: center;
+}
+
+.bg {
+     width: 100%;
+     height: 100%;
+     position: fixed;
+     z-index: 1;
+     float: left;
+     left: 0;
+}
+
+
+
+
+
+.navigator ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #03D935;
+}
+
+.navigator ul li {
+    float: left;
+}
+
+.navigator ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navigator ul li a:hover {
+    background-color: #111;
+}
+
+
+#header header{
+	font-size: 40px;
+	font-weight: bold;
+	font-family: impact;
+	background-color: white;
+	text-align: center;
+}
+
+#footer{
+	text-align: center;
+	width: 100%;
+	background: #3F42AF;
+	bottom: 0;
+}
+
+#page #header .menu a{
+	width: 100%;
+	text-decoration: none;
+}
+
+.coba a{
+	text-decoration: none;
+}
+
+.pencarian{
+	margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+.sidekiri{
+	width: 20%;
+	float: left;
+	/*display: block;*/
+	/*background: #B95D97;*/
+}
+
+.sidetengah{
+	width: 60%;
+	margin: 0 0 0 275px;
+	position: relative;
+	text-align:justify;
+}
+
+#page{
+	/*width: 80%;
+	margin: auto;*/
+	/*background-color: grey;*/
+	width: 80%;
+     height: auto;
+     margin: 0 auto;
+     position: relative;
+     z-index: 5;
+     background: #fff;
+     padding: 30px;
+     text-align: left;
+}
+
+.gambar{
+	width: 100%;
+}
+
+.sidekiri ul li a{
+	text-decoration: none;
+}
+
+.sidekiri ul{
+	list-style-type: none;
+	/*background-color: #47DF67;*/
+}
+
+.sidekiri ul li a:hover{
+	color: red;
+	/*background-color: #38797D;*/
+}
+
+.judul {
+	text-decoration: none;
+}
+
+.judul:hover{
+	color: red;
+}
+
+#header span a:hover{
+	color: red;
+}
+
+.komentar{
+	font-size: 30px;
+	border-top: 1px solid black;
+	/*border-bottom: 1px solid black;*/
+}
+
+.post_komentar{
+	padding: 4px;
+	border-top: 1px solid black;
+	margin-top: 10px;
+}
+
+.label_komentar{
+	font-family: comic;
+	font-size: 15px;
+	float: left;
+	padding: 3px;
+	margin-right: 5px;
+	height: 120px;
+	/*border: 1px solid blue;*/
+}
+
+.label_komentar label.imel{
+margin: 0px 0 3px 3px;
+}
+
+.label_komentar label.komen{
+margin: 6px 0 3px 3px;
+}
+
+.input_komentar{
+	padding: 3px;
+	/*border: 1px solid red;*/
+}
+
+.input_komentar input{
+	margin: 0px 0 3px 3px;
+}
+
+.input_komentar textarea{
+	margin: 3px 0 3px 3px;
+}
+
+.input_komentar button{
+	margin: 3px 0 3px 3px;
+}
+
+.guest img{
+	float: left;
+	margin-right: 5px;
+	height:50px;
+	width:50;
+	border:1px solid black;
+}
+
+.guest p{
+	text-align: justify;
+}
+
+
+.guest .pengunjung{
+	font-family: comic;
+	font-size: 20px;
+}
+
+.guest .waktu{
+	font-family: comic;
+	font-size: 10px;
+}
+
+.guest span.isi_komen{
+	font-family: comic;
+	font-family: 15px;
+}

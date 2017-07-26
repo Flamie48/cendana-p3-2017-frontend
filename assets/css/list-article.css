@@ -1,0 +1,169 @@
+*{
+	padding: 0px;
+}
+/*HEADER TETAP DI ATAS ATAU STICKY
+header{
+	position: fixed;
+}*/
+
+.center {
+    text-align: center;
+	margin-top:15px;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.gb_header{
+	width: 60%;
+	height: 100px;
+}
+
+#body{
+	 margin: 0;
+     padding: 0;
+     text-align: center;
+}
+
+.bg {
+     width: 100%;
+     height: 100%;
+     position: fixed;
+     z-index: 1;
+     float: left;
+     left: 0;
+}
+
+
+#header{
+	padding-top: 0px;
+}
+
+
+.navigator ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #03D935;
+}
+
+.tanggal{
+	font-size: 13px;
+	font-family: calibri;
+	text-decoration: none;
+}
+
+.tanggal a{
+	text-decoration: none;
+}
+
+.navigator ul li {
+    float: left;
+}
+
+.navigator ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navigator ul li a:hover {
+    background-color: #111;
+}
+
+
+
+#footer{
+	text-align: center;
+	width: 100%;
+	background: #03D935;
+	bottom: 0;
+	padding: 0;
+}
+
+
+
+.coba a{
+	text-decoration: none;
+}
+
+
+
+.sidekiri{
+	width: 20%;
+	float: left;
+	/*display: block;*/
+	/*background: #B95D97;*/
+}
+
+.sidetengah{
+	width: 60%;
+	margin: 0 0 0 275px;
+	position: relative;
+	text-align:justify;
+}
+
+#page{
+	/*width: 80%;
+	margin: auto;*/
+	/*background-color: grey;*/
+	width: 80%;
+     height: auto;
+     margin: 0 auto;
+     position: relative;
+     z-index: 5;
+     background: #fff;
+     padding: 30px;
+     text-align: left;
+}
+
+.gambar{
+	width: 100%;
+}
+
+.sidekiri ul li a{
+	text-decoration: none;
+}
+
+.sidekiri ul{
+	list-style-type: none;
+	/*background-color: #47DF67;*/
+}
+
+.sidekiri ul li a:hover{
+	color: red;
+	/*background-color: #38797D;*/
+}
+
+.judul {
+	text-decoration: none;
+}
+
+.judul:hover{
+	color: red;
+}
+
+#header span a:hover{
+	color: red;
+}
+

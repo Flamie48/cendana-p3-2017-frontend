@@ -1,0 +1,278 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+	background-color: #D3D3D3;
+	/*padding: 10px 10px;*/
+}
+
+.navigator{
+    width: 100%;
+}
+
+.navigator ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4E4E4E;
+}
+
+.navigator ul li {
+    float: left;
+}
+
+.navigator ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navigator ul li a:hover {
+    background-color: #111;
+}
+
+.sideleft{
+    width: 20%;
+    float: left;
+    /*border: 1px solid black;*/
+}
+
+.sideleft ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+.sideleft li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.sideleft li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.sideleft li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.kiri{
+	float: left;
+	width: 40%;
+	padding: 2px;
+}
+
+.kanan{
+	width: 30%;
+	float: right;
+}
+
+.tittle span{
+	font-size: 18px;
+	font-family: Comic;
+}
+
+.tittle input{
+	width: 50%;
+	margin-bottom: 50px;
+}
+
+.tombol button{
+	background-color: transparent;
+	border: none;
+	overflow: hidden;
+
+}
+
+.tulisan{
+	margin-bottom: 10px;
+}
+
+.media button{
+	display: inline-block;
+  padding: 5px 15px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px #999;
+  font-family: Comic;
+}
+
+.media button:hover{
+	background-color: #3e8e41
+
+}
+
+.media button:active{
+	background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.publish_operasi {
+	background-color: white;
+	width: 50%;
+	padding: 15px;
+	border-radius: 25px;
+}
+
+.publish_operasi .tittle{
+	
+	border-bottom: 1px solid #DADADA;
+	margin-bottom: 2px;
+}
+
+.publish_operasi .tittle span{
+	font-family: Comic;
+	font-size: 20px;
+}
+
+
+.tombol_save button{
+	display: inline-block;
+  padding: 5px 10px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 3px #999;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  font-family: Comic;
+}
+
+.tombol_save button:hover{
+	background-color: #3e8e41
+}
+
+.tombol_save button:active{
+	background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.operasi{
+	display: block;
+	border-bottom: 1px solid #DADADA;
+	margin-bottom: 5px;
+
+}
+
+.publish_operasi .operasi span{
+	font-family: Comic;
+	font-size: 15px;
+}
+
+.publish_operasi .operasi a{
+	font-family: Comic;
+	font-size: 15px;
+}
+
+
+.tombol_publish{
+	text-align: right;
+}
+
+.tombol_publish button{
+	display: inline-block;
+  padding: 5px 10px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #3C58FF;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 3px #999;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-family: comic;
+}
+
+.tombol_publish button:hover{
+	background-color: #6172C7;
+}
+
+.tombol_publish button:active{
+	background-color: #6172C7;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.format{
+	background-color: white;
+	width: 50%;
+	padding: 15px;
+	border-radius: 25px;
+	margin-top: 5px;
+}
+
+.tittle_format{
+	border-bottom: 1px solid #DADADA;
+	margin-bottom: 3px;
+	font-family: Comic;
+	font-size: 20px;
+}
+
+.isi_format input{
+	font-family: comic;
+	font-size: 15px;
+}
+
+
+.kategori {
+	background-color: white;
+	width: 50%;
+	padding: 15px;
+	border-radius: 25px;
+	margin-top: 5px;
+}
+
+.judul_kategori{
+	border-bottom: 1px solid #DADADA;
+	margin-bottom: 3px;
+	font-family: comic;
+	font-size: 20px;
+}
+
+.isi_kategori{
+	background-color: #eee;
+    width: 200px;
+    height: 100px;
+    border: 1px dotted black;
+    overflow: auto;
+}
+
+.isi_kategori input{
+	font-family: comic;
+	font-size: 15px;
+}
+
+.tambah_kategori a{
+	font-family: comic;
+	font-size: 15px;
+}
